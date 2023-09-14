@@ -216,7 +216,7 @@ const Home = () => {
 
   return (
     <div className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center">
-      <div className="dashboard-container w-[55rem] h-screen p-6 bg-white rounded-lg shadow-xl">
+      <div className="dashboard-container w-full md:w-[55rem] h-screen p-6 bg-white rounded-lg shadow-xl">
         <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-600 text-4xl font-bold mb-2">
           Hii, There Welcome to your Dashboard
         </h4>
@@ -278,8 +278,6 @@ const Home = () => {
         </button>
 
         <div>
-          
-
           <div className="mt-4">
             <label className="text-gray-700 font-semibold">Filter by:</label>
             <div className="mt-2">
@@ -322,7 +320,7 @@ const Home = () => {
 
         <button
           type="button"
-          className="ml-[22rem] mt-3 w-32 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 rounded-lg"
+          className="ml-auto mt-3 md:ml-[22rem] w-32 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 rounded-lg"
           onClick={logout}
         >
           LogOut
