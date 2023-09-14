@@ -320,7 +320,7 @@ const Home = () => {
 
         <button
           type="button"
-          className="ml-auto mt-3 md:ml-[22rem] w-32 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 rounded-lg"
+          className=" mt-3  w-32 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 rounded-lg"
           onClick={logout}
         >
           LogOut
