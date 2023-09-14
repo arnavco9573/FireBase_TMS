@@ -1,0 +1,6 @@
+.dashboard-container {
+    width: 55rem; /* Set your desired width */
+    max-height: 80vh; /* Set your desired max height */
+    overflow: auto; /* Add scrollbars when content overflows */
+    /* Add other styling as needed */
+  }
